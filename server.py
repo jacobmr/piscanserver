@@ -91,7 +91,7 @@ def update_scanner_settings():
     if api_key:
         settings_dict = {}
         if request.method == 'GET':
-            # Handle GET request with URL parameters
+            # Handle GET request with URL parameters more
             if 'mode' in request.args:
                 settings_dict['MODE'] = request.args.get('mode')
             if 'resolution' in request.args:

@@ -6,7 +6,7 @@ MODE="Lineart"  # Black and white
 RESOLUTION="300"  # 300 DPI
 ERRORS="no"  # Discard errors
 
-# Read from settings file
+# Read from settings file and
 if [ -f /home/jacob/scan-settings.txt ]; then
     while IFS= read -r line
     do
