@@ -22,18 +22,19 @@ fi
 
 # Perform the scan
 if [[ $ERRORS == "yes" ]]; then
-    scanimage --format=png --resolution $RESOLUTION --mode $MODE --source ADF > /home/jacob/scan/$DATE.png
+    scanimage --format=png --resolution $RESOLUTION --mode $MODE --source ADF --batch=/home/jacob/scan/scan-page-%d.png
 else
-    scanimage --format=png --resolution $RESOLUTION --mode $MODE --source ADF > /home/jacob/scan/$DATE.png 2>/dev/null
+    scanimage --format=png --resolution $RESOLUTION --mode $MODE --source ADF --batch=/home/jacob/scan/scan-page-%d.png 2>/dev/null
 fi
 
-if [ $? -eq 0 ]; then
+# Check if the first page scan succeeded (since --batch doesn't return an error if later pages fail)
+if [ -f /home/jacob/scan/scan-page-1.png ]; then
     # The scan succeeded
-    convert /home/jacob/scan/$DATE.png /home/jacob/scan/$DATE.pdf
-    rm /home/jacob/scan/$DATE.png
-    rclone move /home/jacob/scan jmr:/Family\ Room/scan
-    rclone delete jmr:/Family\ Room/scan --include "*.png"
+    convert /home/jacob/scan/scan-page-*.png /home/jacob/scan/$DATE.pdf
+    rm /home/jacob/scan/scan-page-*.png
+    rclone move /home/jacob/scan scan:/Family\ Room/scan
+    rclone delete scan:/Family\ Room/scan --include "*.png"
 else
-    # The scan failed, so delete the empty PNG file
-    rm /home/jacob/scan/$DATE.png
+    # The scan failed, so delete the empty PNG files
+    rm /home/jacob/scan/scan-page-*.png
 fi
