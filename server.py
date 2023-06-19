@@ -28,14 +28,14 @@ class SettingsForm(FlaskForm):
 
 def read_settings_from_file():
     settings_dict = {}
-    with open('scan-settings.txt', 'r') as f:
+    with open('scan-settings_HP.txt', 'r') as f:
         for line in f:
             key, value = line.strip().split('=')
             settings_dict[key] = value
     return settings_dict
 
 def write_settings_to_file(settings_dict):
-    with open('scan-settings.txt', 'w') as f:
+    with open('scan-settings_HP.txt', 'w') as f:
         for key, value in settings_dict.items():
             f.write('%s=%s\n' % (key, value))
 
@@ -91,7 +91,7 @@ def update_scanner_settings():
     if api_key:
         settings_dict = {}
         if request.method == 'GET':
-            # Handle GET request with URL parameters more
+            # Handle GET request with URL parameters
             if 'mode' in request.args:
                 settings_dict['MODE'] = request.args.get('mode')
             if 'resolution' in request.args:
@@ -114,7 +114,7 @@ def update_scanner_settings():
         
         if settings_dict:
             # Validate the URL before making the request
-            api_url = 'https://scan.YOURDOMAIN.com/api'
+            api_url = 'https://scan.salundo.com/api'
             print('api_url before validation:', api_url)
             parsed_url = urllib.parse.urlparse(api_url)
             print('parsed url:', parsed_url)
