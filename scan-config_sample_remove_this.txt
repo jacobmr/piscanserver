@@ -1,0 +1,7 @@
+SCAN_FOLDER="/home/YOU/scan"
+HP_SCANNER="hpaio:/usb/HP_LaserJet_M2727nf_MFP?serial=363736363636924"
+FJ_SCANNER="fujitsu:ScanSnap S1500:34682"
+LOCKFILE="/tmp/scan_script.lock"
+RCLONE_REMOTE="scan:/Folder/scan"
+HP_SETTINGS_FILE="/home/YOU/scan-settings_HP.txt"
+FJ_SETTINGS_FILE="/home/YOU/scan-settings_FJ.txt"
