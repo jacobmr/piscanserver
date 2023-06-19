@@ -114,7 +114,7 @@ def update_scanner_settings():
         
         if settings_dict:
             # Validate the URL before making the request
-            api_url = 'https://scan.salundo.com/api'
+            api_url = 'https://scan.YOURDOMAIN.com/api'
             print('api_url before validation:', api_url)
             parsed_url = urllib.parse.urlparse(api_url)
             print('parsed url:', parsed_url)
