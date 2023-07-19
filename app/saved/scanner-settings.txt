@@ -1,0 +1,1 @@
+SCANNER_NAME=device `hpaio:/usb/HP_LaserJet_M2727nf_MFP?serial=00CND881108V' is a Hewlett-Packard HP_LaserJet_M2727nf_MFP

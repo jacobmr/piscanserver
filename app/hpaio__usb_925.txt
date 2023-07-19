@@ -1,0 +1,30 @@
+
+All options specific to device `hpaio:/usb/HP_LaserJet_M2727nf_MFP?serial=00CND881108V':
+  Scan mode:
+    --mode Lineart|Gray|Color [Lineart]
+        Selects the scan mode (e.g., lineart, monochrome, or color).
+    --resolution 75|100|150|200|300|600|1200dpi [75]
+        Sets the resolution of the scanned image.
+    --source Flatbed|ADF|Duplex [Flatbed]
+        Selects the scan source (such as a document-feeder).
+  Advanced:
+    --brightness -1000..1000 [0]
+        Controls the brightness of the acquired image.
+    --contrast -1000..1000 [0]
+        Controls the contrast of the acquired image.
+    --compression None|JPEG [JPEG]
+        Selects the scanner compression method for faster scans, possibly at
+        the expense of image quality.
+    --jpeg-quality 0..100 [inactive]
+        Sets the scanner JPEG compression factor. Larger numbers mean better
+        compression, and smaller numbers mean better image quality.
+  Geometry:
+    -l 0..215.9mm [0]
+        Top-left x position of scan area.
+    -t 0..296.926mm [0]
+        Top-left y position of scan area.
+    -x 0..215.9mm [215.9]
+        Width of scan-area.
+    -y 0..296.926mm [296.926]
+        Height of scan-area.
+

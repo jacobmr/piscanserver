@@ -1,0 +1,16 @@
+#GLOBAL
+SCAN_FOLDER="/home/jacob/scan"
+LOCKFILE="/tmp/scan_script.lock"
+#SCANNERS
+
+Scanner
+SCANNER="fujitsu:ScanSnap S1500:34682"
+SETTINGS_FILE="/home/jacob/app/fujitsu_Sc_706.txt"
+RCLONE_REMOTE="google:/scans"
+SOURCE="ADF Duplex"
+
+Scanner
+SCANNER="hpaio:/usb/HP_LaserJet_M2727nf_MFP?serial=00CND881108V"
+SETTINGS_FILE="/home/jacob/app/hpaio__usb_925.txt"
+RCLONE_REMOTE=dropbox:/Family Room/scan"
+SOURCE="ADF"

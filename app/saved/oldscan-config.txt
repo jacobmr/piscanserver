@@ -1,0 +1,10 @@
+SCAN_FOLDER="/home/jacob/scan"
+LOCKFILE="/tmp/scan_script.lock"
+Scanner
+SCANNER="hpaio:/usb/HP_LaserJet_M2727nf_MFP?serial=00CND881108V"
+SETTINGS_FILE="/home/jacob/scan-settings_HP.txt"
+RCLONE_REMOTE="dropbox:/Family Room/scan"
+Scanner
+SCANNER="fujitsu:ScanSnap S1500:34682"
+RCLONE_REMOTE="google:/scans"
+SETTINGS_FILE="/home/jacob/scan-settings_FJ.txt"

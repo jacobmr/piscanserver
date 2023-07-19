@@ -1,0 +1,7 @@
+tunnel: d8c768f0-4790-4027-87df-aa54b1889072
+credentials-file: /root/.cloudflared/d8c768f0-4790-4027-87df-aa54b1889072.json
+
+ingress:
+  - hostname: scan.salundo.com
+    service: http://localhost:8000
+  - service: http_status:404

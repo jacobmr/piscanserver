@@ -1,0 +1,2 @@
+Output format is not set, using pnm as a default.
+scanimage: open of device hpaio:/usb/HP_LaserJet_M2727nf_MFP?serial=00CND881108V' failed: Error during device I/O

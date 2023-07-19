@@ -1,0 +1,8 @@
+MODE=color
+RESOLUTION=600
+ERRORS=no
+SOURCE=ADF Duplex
+BRIGHTNESS=0
+CONTRAST=0
+THRESHOLD=0
+batch=/home/jacob/scan/scan-page-%d.png
