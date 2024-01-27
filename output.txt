@@ -45,3 +45,134 @@
 /bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
 /bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
 /bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+scanimage: open of device hpaio:/usb/HP_LaserJet_M2727nf_MFP?serial=00CND881108V failed: Error during device I/O
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+cannot open ./scans/20240127_171701scan-page-1.png.part
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+cannot open ./scans/20240127_171801scan-page-1.png.part
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+scanimage: open of device hpaio:/usb/HP_LaserJet_M2727nf_MFP?serial=00CND881108V failed: Error during device I/O
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+scanimage: sane_start: Error during device I/O
+Batch terminated, 0 pages scanned
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+scanimage: open of device hpaio:/usb/HP_LaserJet_M2727nf_MFP?serial=00CND881108V failed: Error during device I/O
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+scanimage: open of device hpaio:/usb/HP_LaserJet_M2727nf_MFP?serial=00CND881108V failed: Error during device I/O
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+scanimage: sane_start: Document feeder out of documents
+Batch terminated, 0 pages scanned
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+scanimage: sane_start: Document feeder out of documents
+Batch terminated, 0 pages scanned
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+Scanned page 1. (scanner status = 5)
+Scanning page 2
+Scanned page 2. (scanner status = 5)
+Scanning page 3
+scanimage: sane_start: Document feeder out of documents
+Batch terminated, 2 pages scanned
+Usage:
+  rclone move source:path dest:path [flags]
+
+Flags:
+      --create-empty-src-dirs   Create empty source dirs on destination after move
+      --delete-empty-src-dirs   Delete empty source dirs after move
+  -h, --help                    help for move
+
+Use "rclone [command] --help" for more information about a command.
+Use "rclone help flags" for to see the global flags.
+Use "rclone help backends" for a list of supported services.
+Command move needs 2 arguments maximum: you provided 3 non flag arguments: ["./scans/20240127_172501scan.pdf" "dropbox:/Family" "Room/scan"]
+
+
+Successfully converted images to PDF: ./scans/20240127_172501scan.pdf
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+scanimage: sane_start: Document feeder out of documents
+Batch terminated, 0 pages scanned
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+scanimage: sane_start: Document feeder out of documents
+Batch terminated, 0 pages scanned
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+scanimage: sane_start: Document feeder out of documents
+Batch terminated, 0 pages scanned
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+scanimage: sane_start: Document feeder out of documents
+Batch terminated, 0 pages scanned
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+scanimage: sane_start: Document feeder out of documents
+Batch terminated, 0 pages scanned
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+scanimage: sane_start: Document feeder out of documents
+Batch terminated, 0 pages scanned
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+scanimage: sane_start: Document feeder out of documents
+Batch terminated, 0 pages scanned
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+scanimage: sane_start: Document feeder out of documents
+Batch terminated, 0 pages scanned
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+scanimage: sane_start: Document feeder out of documents
+Batch terminated, 0 pages scanned
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+scanimage: sane_start: Document feeder out of documents
+Batch terminated, 0 pages scanned
+scanimage: open of device fujitsu:ScanSnap S1500:34682 failed: Invalid argument
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+scanimage: sane_start: Document feeder out of documents
+Batch terminated, 0 pages scanned
+Scanning 4 pages, incrementing by 1, numbering from 1
+Scanning page 1
+scanimage: sane_start: Document feeder out of documents
+Batch terminated, 0 pages scanned

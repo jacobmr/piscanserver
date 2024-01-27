@@ -5,20 +5,12 @@
   },
   "SCANNERS": [
     {
-      "SCANNER": "fujitsu:ScanSnap S1500:34682",
-      "SETTINGS_FILE": "/home/jacob/app/fujitsu_Sc_706.txt",
-      "RCLONE_REMOTE": "google:/scans",
-      "SOURCE": "ADF Duplex",
-      "MODE": "Color",
-      "RESOLUTION": "300"
-    },
-    {
       "SCANNER": "hpaio:/usb/HP_LaserJet_M2727nf_MFP?serial=00CND881108V",
       "SETTINGS_FILE": "/home/jacob/app/hpaio__usb_925.txt",
       "RCLONE_REMOTE": "dropbox:/Family Room/scan",
       "SOURCE": "ADF",
       "MODE": "Gray",
-      "RESOLUTION": "200"
+      "RESOLUTION": "300"
     }
   ]
 }
