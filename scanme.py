@@ -1,6 +1,6 @@
 import os
 import sys
-import subprocess  # Add this line to import the subprocess module
+import subprocess  
 from datetime import datetime
 import glob
 import json
@@ -99,7 +99,8 @@ def perform_scan(scanner_dict, prefix):
             print(f'Failed to convert images to PDF')
 
         # Upload the PDF file to the remote destination
-        rclone_result = subprocess.run(f'rclone move ./scans/{prefix}scan.pdf {rclone_remote}', shell=True)
+        rclone_command = f'rclone move "./scans/{prefix}scan.pdf" "{rclone_remote}"'
+        rclone_result = subprocess.run(rclone_command, shell=True)
         # If rclone move was successful, the local PDF file should no longer exist
         if not os.path.isfile(f'./scans/{prefix}scan.pdf'):
             print(f'Successfully moved PDF to remote: {rclone_remote}')
