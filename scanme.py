@@ -70,7 +70,7 @@ def perform_scan(scanner_dict, prefix):
         }
     elif 'hp' in scanner.lower():
         settings = {
-            "source": "Duplex",
+            "source": "ADF",
             "mode": "Gray",
             "resolution": "300"
         }
