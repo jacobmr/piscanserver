@@ -77,14 +77,17 @@ def perform_scan(scanner_dict, prefix):
 
     # Dynamically construct the scanimage command
     #comment the next line for batch
-    cmd = f'scanimage -d "{scanner}" --format=png --batch-count=4' 
+    #cmd = f'scanimage -d "{scanner}" --format=png --batch-count=4' 
     #uncomment the next line for batch
-    #cmd = f'scanimage -d "{scanner}" --format=png'
+    cmd = f'scanimage -d "{scanner}" --format=png'
     for setting_name, setting_value in settings.items():
         cmd += f" --{setting_name.lower()}='{setting_value}'"
     cmd += f' --batch="./scans/{prefix}scan-page-%d.png"'
     # Execute the scanimage command
-    subprocess.run(cmd, shell=True)
+    # subprocess.run(cmd, shell=True)
+    result = subprocess.run(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    print(result.stdout.decode())
+    print(result.stderr.decode())
 
     # Check if the scan succeeded by verifying the existence of the first scan page
     if os.path.isfile(f"./scans/{prefix}scan-page-1.png"):
