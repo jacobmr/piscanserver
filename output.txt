@@ -35,3 +35,13 @@
 /bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
 /bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
 /bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
+/bin/sh: 1: /home/jacob/app/v3/env/bin/python3: not found
