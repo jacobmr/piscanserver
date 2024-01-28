@@ -61,14 +61,19 @@ def perform_scan(scanner_dict, prefix):
     open(lock_file, 'a').close()
 
     # Define the scanner settings
-    settings = {}
-    if 'fujitsu' in scanner.lower():
+    settings = {
+    "source": scanner_dict.get("SOURCE", "ADF"),
+    "mode": scanner_dict.get("MODE", "Gray"),
+    "resolution": scanner_dict.get("RESOLUTION", "300")
+    }
+    #settings = {}
+    #if 'fujitsu' in scanner.lower():
         settings = {
             "source": "ADF Duplex",
             "mode": "Gray",
             "resolution": "300"
         }
-    elif 'hp' in scanner.lower():
+    #elif 'hp' in scanner.lower():
         settings = {
             "source": "ADF",
             "mode": "Gray",
