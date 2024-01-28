@@ -60,7 +60,7 @@ def perform_scan(scanner_dict, prefix):
         return
 
     # Create a lock file to prevent concurrent scanning
-    open(lock_file, 'a').close()
+    # open(lock_file, 'a').close()
 
     # Define the scanner settings
     settings = {
