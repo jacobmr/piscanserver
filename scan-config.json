@@ -1,9 +1,17 @@
 {
   "GLOBAL": {
-    "SCAN_FOLDER": "/home/jacob/app/scans",
+    "SCAN_FOLDER": "/home/jacob/app/v3/scans",
     "LOCKFILE": "/tmp/scan_script.lock"
   },
   "SCANNERS": [
+    {
+      "SCANNER": "fujitsu:ScanSnap S1500:34682",
+      "SETTINGS_FILE": "/home/jacob/app/fujitsu_Sc_706.txt",
+      "RCLONE_REMOTE": "google:/scans",
+      "SOURCE": "ADF Duplex",
+      "MODE": "Color",
+      "RESOLUTION": "300"
+    },
     {
       "SCANNER": "hpaio:/usb/HP_LaserJet_M2727nf_MFP?serial=00CND881108V",
       "SETTINGS_FILE": "/home/jacob/app/hpaio__usb_925.txt",
