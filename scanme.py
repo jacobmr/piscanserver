@@ -55,6 +55,8 @@ def perform_scan(scanner_dict, prefix):
     # Check if a scan is already in progress for this scanner
     if os.path.isfile(lock_file):
         print(f"A scan is already in progress for {scanner}, skipping.")
+        #remove this next run
+        os.remove(lock_file)
         return
 
     # Create a lock file to prevent concurrent scanning
