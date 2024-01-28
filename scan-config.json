@@ -7,7 +7,7 @@
     {
       "SCANNER": "fujitsu:ScanSnap S1500:34682",
       "SETTINGS_FILE": "/home/jacob/app/fujitsu_Sc_706.txt",
-      "RCLONE_REMOTE": "google:/scans",
+      "RCLONE_REMOTE": "dropbox:/Family Room/scan",
       "SOURCE": "ADF Duplex",
       "MODE": "Color",
       "RESOLUTION": "300"
