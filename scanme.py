@@ -68,17 +68,17 @@ def perform_scan(scanner_dict, prefix):
     }
     #settings = {}
     #if 'fujitsu' in scanner.lower():
-        settings = {
-            "source": "ADF Duplex",
-            "mode": "Gray",
-            "resolution": "300"
-        }
+        #settings = {
+           # "source": "ADF Duplex",
+           # "mode": "Gray",
+           # "resolution": "300"
+      #  }
     #elif 'hp' in scanner.lower():
-        settings = {
-            "source": "ADF",
-            "mode": "Gray",
-            "resolution": "300"
-        }
+       # settings = {
+         #   "source": "ADF",
+          #  "mode": "Gray",
+          #  "resolution": "300"
+      #  }
 
     # Dynamically construct the scanimage command
     #comment the next line for batch
